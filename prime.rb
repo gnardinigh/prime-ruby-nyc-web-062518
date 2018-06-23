@@ -1,6 +1,6 @@
 def make_divisors_array(integer)
   divisors = Array.new
-    for counter in 1..integer_sqrt do
+    for counter in 1..integer do
       divisors[counter-1] = counter
     end
     return divisors
