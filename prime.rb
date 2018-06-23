@@ -19,6 +19,7 @@ end
   
 def prime?(integer)
 
-make_divisors_array(integer)
+a = make_divisors_array(integer)
 
+puts a.inspect
 end
