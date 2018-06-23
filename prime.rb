@@ -17,3 +17,6 @@ def check_if_prime(divisors,integer)
   return true
 end
   
+def prime?(integer)
+
+end
