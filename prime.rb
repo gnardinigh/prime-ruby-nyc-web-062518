@@ -3,7 +3,9 @@ def prime?(integer)
     return false 
   else
     divisors = Array.new
-    for 1..Math.sqrt(integer)
+    integer_sqrt = Math.sqrt(integer)
+    for counter in 1..integer_sqrt do
+      
     
     
     
