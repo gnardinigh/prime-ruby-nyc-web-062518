@@ -7,8 +7,7 @@ def make_divisors_array(integer)
 end 
 
 
-def prime?(integer)
-  a=make_divisors_array(integer)
-  a.each do |divisor|
-    
-  end
+def check_if_prime(divisors)
+  
+end
+  
