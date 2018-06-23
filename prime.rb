@@ -9,4 +9,6 @@ end
 
 def prime?(integer)
   a=make_divisors_array(integer)
-  a.each 
+  a.each do |divisor|
+    
+  end
