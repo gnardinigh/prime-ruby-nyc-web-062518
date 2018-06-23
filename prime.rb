@@ -1,6 +1,6 @@
 def make_divisors_array(integer)
   divisors = Array.new
-    for counter in 2..integer do
+    for counter in 2..integer-1 do
       divisors[counter-2] = counter
     end
     return divisors
@@ -8,8 +8,9 @@ end
 
 
 def check_if_prime(divisors,integer)
+  
   divisors.each do |divisor|
-    if integer-1%divisor==0
+    if %divisor==0
       return false
     end 
   end 
