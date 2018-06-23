@@ -8,6 +8,7 @@ end
 
 
 def check_if_prime(divisors)
+ 
   divisors.each do |divisor|
   
   end 
