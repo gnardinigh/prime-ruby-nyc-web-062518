@@ -19,7 +19,6 @@ end
   
 def prime?(integer)
 
-
-
+make_divisors_array(integer)
 
 end
