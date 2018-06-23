@@ -20,4 +20,4 @@ a=make_divisors_array(100)
 
 puts a.inspect
 
-puts check_if_prime(a)
+puts check_if_prime(a,100)
