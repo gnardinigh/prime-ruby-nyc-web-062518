@@ -5,16 +5,3 @@ def make_divisors_array(integer)
       divisors[counter-1] = counter
     end
 end 
-
-
-def prime?(integer)
-  if integer<=1
-    return false 
-  else
-    
-      
-    
-    
-    
-  end   
-end
