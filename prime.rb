@@ -7,3 +7,5 @@ def make_divisors_array(integer)
 end 
 
 a = make_divisors_array(10)
+
+puts a.inspect
