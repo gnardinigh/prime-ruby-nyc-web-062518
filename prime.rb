@@ -7,10 +7,10 @@ def make_divisors_array(integer)
 end 
 
 
-def check_if_prime(divisors)
+def check_if_prime(divisors,integer)
  
   divisors.each do |divisor|
-    if divisor%
+    if integer%divisor==0 
     
   end 
   
