@@ -17,9 +17,14 @@ def check_if_prime(divisors,integer)
   return true
 end
   
+
+
+
+
+
 def prime?(integer)
-
 a = make_divisors_array(integer)
-
 puts a.inspect
+
+
 end
