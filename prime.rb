@@ -6,4 +6,4 @@ def make_divisors_array(integer)
     return divisors
 end 
 
-a = make_divisors_array()
+a = make_divisors_array(10)
