@@ -6,7 +6,6 @@ def make_divisors_array(integer)
     return divisors
 end 
 
-
 def check_if_prime(divisors,integer)
   
   divisors.each do |divisor|
