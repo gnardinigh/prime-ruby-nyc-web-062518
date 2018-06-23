@@ -12,7 +12,6 @@ def check_if_prime(divisors,integer)
   divisors.each do |divisor|
     if integer%divisor==0
       return false
-    
   end 
   
 end
