@@ -12,6 +12,7 @@ def check_if_prime(divisors,integer)
     if integer%divisor==0
       return false
     end 
+  end 
   return true
 end
   
