@@ -17,8 +17,3 @@ def check_if_prime(divisors,integer)
   return true
 end
   
-a=make_divisors_array(5)
-
-puts a.inspect
-
-puts check_if_prime(a,5)
