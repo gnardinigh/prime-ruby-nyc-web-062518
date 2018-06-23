@@ -29,5 +29,5 @@ else
 a = make_divisors_array(integer)
 check_if_prime(a,integer)
 end
-
+end
 prime?(15)
