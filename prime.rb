@@ -1,6 +1,9 @@
-def make_divisors_array
-  
-end
+def make_divisors_array(integer)
+  divisors = Array.new
+    integer_sqrt = Math.sqrt(integer)
+    for counter in 1..integer_sqrt do
+      
+end 
 
 
 def prime?(integer)
