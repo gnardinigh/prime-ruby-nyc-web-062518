@@ -8,4 +8,4 @@ end
 
 
 def prime?(integer)
-  
+  a=make_divisors_array(integer)
