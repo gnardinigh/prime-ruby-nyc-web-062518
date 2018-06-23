@@ -7,4 +7,4 @@ def make_divisors_array(integer)
 end 
 
 
-
+def 
