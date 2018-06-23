@@ -23,7 +23,7 @@ end
 
 
 def prime?(integer)
-if integer==0||integer=1
+if integer==0||integer==1
   return false
 else
 a = make_divisors_array(integer)
