@@ -1,4 +1,6 @@
-
+def make_divisors_array
+  
+end
 
 
 def prime?(integer)
