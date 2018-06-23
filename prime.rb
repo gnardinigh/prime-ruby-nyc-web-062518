@@ -1,7 +1,7 @@
 def make_divisors_array(integer)
   divisors = Array.new
-    for counter in 1..integer do
-      divisors[counter-1] = counter
+    for counter in 2..integer do
+      divisors[counter-2] = counter
     end
     return divisors
 end 
