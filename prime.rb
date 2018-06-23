@@ -9,7 +9,7 @@ end
 
 def check_if_prime(divisors,integer)
   divisors.each do |divisor|
-    if integer%divisor==0
+    if integer-1%divisor==0
       return false
     end 
   end 
