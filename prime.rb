@@ -16,8 +16,8 @@ def check_if_prime(divisors,integer)
   return true
 end
   
-a=make_divisors_array(100)
+a=make_divisors_array(3)
 
 puts a.inspect
 
-puts check_if_prime(a,100)
+puts check_if_prime(a,3)
