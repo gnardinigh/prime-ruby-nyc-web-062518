@@ -16,3 +16,6 @@ def check_if_prime(divisors,integer)
   return true
 end
   
+a=make_divisors_array(100)
+
+puts a.inspect
