@@ -28,3 +28,5 @@ puts a.inspect
 
 
 end
+
+prime?(15)
